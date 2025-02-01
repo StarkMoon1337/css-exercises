@@ -1,13 +1,18 @@
-.base-button {
+/* Pokud potrebujeme stylizovat vice prvku podobne muzeme pouzit tuto syntaxi. 
+Definujeme stejne parametry pro vice prvku jednou a nasledne definovat pouze rozdily
+mezi nimi */
+
+.button-1
+.button-2 {
  font-size: 28px;
  font-family: Helvetica, 'Times New Roman', sans-serif;
 }
 
-.base-button.button-1 {
+.button-1 {
     background-color: black;
     color: white;
 }
 
-.base-button.button-2 {
+.button-2 {
     background-color: yellow;
 }
